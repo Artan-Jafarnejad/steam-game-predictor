@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/design.css">
+</head>
+<body>
+    <div class="background">
+        <div class="form-box">
+            <div class="data-input-box">
+                <h3>Enter Your Steam Profile: </h3>
+                <form action="/data" method="post">
+                    <label> Steam Profile Link </label><br>
+                    <input type="text" name="usernameid" required>
+                    <br><br>
+                    <label> Developer Key </label><br>
+                    <input type="text" name="key" required>
+                    <br><br>
+                    <label> Game Link </label><br>
+                    <input type="text" name="gameid" required>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="score">
+                {% for item in data %}
+                {{item.rating}}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

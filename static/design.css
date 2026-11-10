@@ -1,0 +1,49 @@
+@keyframes background-rainbow {
+    0% { background-color: #3e464993;}
+    25% { background-color: #2023d6b7;}
+    50% { background-color: #8f16dfad;}
+    75% { background-color: #c71ee9b2;}
+    100% { background-color: #3da3cc93;}
+}
+
+.background {
+    background-color: #a6a6a7d2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form-box {
+    position: relative;
+    margin-top: 33vh;
+    margin-left: 31vw;
+    background-color: white;
+    min-width: 250px;
+    max-width: 700px;
+    min-height: 350px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.158);
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.438)
+}
+
+.data-input-box {
+    position: fixed;
+    margin-left: 10px;
+}
+
+.data-input-box input {
+    width: 140%;
+    padding: 2px;
+}
+
+
+.score {
+    position: relative;
+    margin-left: 50%;
+    padding-top: 21%;
+    padding-right: 30px;
+    font-size: 28px;
+}
