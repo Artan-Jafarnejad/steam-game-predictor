@@ -51,6 +51,14 @@ http://127.0.0.1:5000
 
 8. Fill the fields.
 
+8.1. Enter your Steam ID, e.g. 765XXXXXXXXXXXXXX.  
+You can use the following website to get it: https://steamid.xyz/
+
+8.2. Enter your API Key.
+
+8.3. Enter your Game ID,
+You can use the following website to find it: https://steamdb.info/
+
 ❗️**NOTE**: YOUR STEAM PROFILE MUST BE VISIBLE TO PUBLIC! YOU CAN CHANGE IT [HERE](https://steamcommunity.com/my/edit/settings?snr=100601___)❗️
 
 
