@@ -32,7 +32,7 @@ def rating(steamid: str,
 
 temporary: list[dict[str, str]] = [
     {
-        "rating": "This task may take up to few minutes."
+        "rating": "NOTE: After submitting, the request may take up few minutes."
     }
 ]
 
